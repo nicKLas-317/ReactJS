@@ -1,0 +1,7 @@
+.header, .footer{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -5,4 +5,4 @@ npm start
 nettoyage public/ et src/ (logos, favicon, app.css, comments in index.html )
 
 
-npm install bootstrap
+npm install react-bootstrap bootstrap +  "import 'bootstrap/dist/css/bootstrap.min.css';" in App.js

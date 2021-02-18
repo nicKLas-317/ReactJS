@@ -4,15 +4,14 @@ import { Button } from 'react-bootstrap';
 
 // Composant function
 // export function App2()
-const Todolist = () => {
+const Todolist = (props) => {
     const style2 ={
-        color: 'white',
-        backgroundColor: 'black'
+        color: 'black',
     }
 
     return (
       <div className="NomTache">
-          <h2 style={style2}>Tâche n°1</h2>
+          <h2 style={style2}>{props.Nomdetache}</h2>
          {/* <button style={{backgroundColor : 'red'}}>Supprimer</button> */}
          <button className="btn btn-danger">Supprimer</button>
       </div>

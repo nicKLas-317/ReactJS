@@ -3,4 +3,22 @@
   height: 800px;
   margin: auto auto 50%;
   background-color: aqua;
+  padding-top: 15px;
+}
+.InputTache{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.App input{
+  width: 400px;
+  border-radius: 5px;
+  border: solid black;
+}
+.App button{
+  margin: 10px;
+  width: 200px;
+
 }
