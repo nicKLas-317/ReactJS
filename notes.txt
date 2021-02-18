@@ -1,0 +1,5 @@
+INSTALL :
+npx create-react-app test1
+cd test1
+npm start
+nettoyage public/ et src/ (logos, favicon, app.css, comments in index.html )
