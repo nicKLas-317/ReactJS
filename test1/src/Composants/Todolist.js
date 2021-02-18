@@ -11,9 +11,9 @@ const Todolist = (props) => {
 
     return (
       <div className="NomTache">
-          <h2 style={style2}>{props.Nomdetache}</h2>
+          <h5 style={style2}>{props.Nomdetache}</h5>
          {/* <button style={{backgroundColor : 'red'}}>Supprimer</button> */}
-         <button className="btn btn-danger">Supprimer</button>
+         <button className="btn btn-danger" onClick={() =>props.functionDelete(props.idp)}>Supprimer</button>
       </div>
     )
 }
