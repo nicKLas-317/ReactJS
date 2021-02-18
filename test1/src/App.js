@@ -1,22 +1,21 @@
 import './App.css'
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Enfant from './Composants/Enfant'
+import Todolist from './Composants/Todolist'
 // Composant function
-function App()
+const App = ()=>
 {
   return (
     <div className="App">
-      <h1>Je suis le composant function</h1>
+      {/* <Enfant /> */}
+      <Todolist />
     </div>
   )
 }
-// Composant function
-export function App2()
-{
-  return (
-    <div>
-      <p>2e composant</p>
-    </div>
-  )
-}
+
+
+
+
+
+
 export default App

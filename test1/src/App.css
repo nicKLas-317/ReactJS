@@ -1,7 +1,6 @@
-#title{
-  color: red;
-}
-
-#title2{
-  color: black;
+.App{
+  width: 600px;
+  height: 800px;
+  margin: auto auto 50%;
+  background-color: aqua;
 }
