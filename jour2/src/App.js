@@ -12,13 +12,14 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import Usestateexample from './Hooks/Components/Usestateexample';
 
 function App() {
   return (
     <div className="App">
       {/* <Inputcpn/> */}
       {/* <InputNico/> */}
-      <Router>
+      {/* <Router>
         <Navbar />
         <Route exact path="/">
           <Homepage />
@@ -36,7 +37,8 @@ function App() {
           <Collection />
         </Route>
 
-      </Router>
+      </Router> */}
+      <Usestateexample/>
     </div>
   );
 }
