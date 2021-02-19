@@ -4,7 +4,7 @@ cd test1
 npm start
 nettoyage public/ et src/ (logos, favicon, app.css, comments in index.html )
 
-
+npm install react-router-dom :illusion de site web
 npm install react-bootstrap bootstrap +  "import 'bootstrap/dist/css/bootstrap.min.css';" in App.js
 
 -> bind permet de faire remonter le state
