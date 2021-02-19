@@ -1,11 +1,18 @@
 .App{
-  width: 600px;
+
   height: 800px;
   margin: auto auto 50%;
-  background-color: aqua;
+  background-color: grey;
   padding-top: 15px;
 }
-.InputTache{
+/* .InputTache{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+} */
+.InputCity{
   width: 500px;
   display: flex;
   flex-direction: row;
