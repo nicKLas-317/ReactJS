@@ -11,7 +11,8 @@ class Inputcpn extends React.Component {
             Nameville: '',
             Nhabitant: 0,
             Monville: '',
-            ListVille: []
+            ListVille: [],
+            NbMaj : 0
         }
 
         this.HandlechangeVille = this.HandlechangeVille.bind(this)
@@ -32,7 +33,10 @@ class Inputcpn extends React.Component {
         this.setState({ Monville: e.target.value })
 
     }
-
+    // componentDidUpdate()
+    // {
+    //     this.setState({NbMaj : NbMaj +1})
+    // }
     HandleAjouter() {
         if (this.state.Nameville != '' && this.state.Nhabitant > 0 && this.state.Monville != '') {
             var copy = this.state.ListVille
@@ -80,6 +84,7 @@ class Inputcpn extends React.Component {
                         onChange={this.HandlechangeMonument} value={this.state.Monville}></input>
                     <button onClick={this.HandleAjouter}>Add</button>
                 </div>
+                <h1> {this.state.NbMaj}</h1>
                 <div>
                     {this.state.ListVille.map((iville, index) => {
                         return <Affichageville key={index}

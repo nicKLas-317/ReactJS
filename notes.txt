@@ -8,3 +8,5 @@ nettoyage public/ et src/ (logos, favicon, app.css, comments in index.html )
 npm install react-bootstrap bootstrap +  "import 'bootstrap/dist/css/bootstrap.min.css';" in App.js
 
 -> bind permet de faire remonter le state
+
+https://drive.google.com/drive/folders/1N-tyUJtEX5sViwxrfj6ireNC1KlPz_7C
