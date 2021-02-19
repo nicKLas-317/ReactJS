@@ -1,0 +1,11 @@
+.ParentComp{
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.ParaComp{
+    border: 1px solid red;
+}

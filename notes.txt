@@ -10,3 +10,7 @@ npm install react-bootstrap bootstrap +  "import 'bootstrap/dist/css/bootstrap.m
 -> bind permet de faire remonter le state
 
 https://drive.google.com/drive/folders/1N-tyUJtEX5sViwxrfj6ireNC1KlPz_7C
+https://discord.com/channels/781496804481957898/781496804481957903/812335114574495774
+
+
+

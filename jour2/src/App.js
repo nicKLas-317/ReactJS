@@ -19,7 +19,9 @@ function App() {
     <div className="App">
       {/* <Inputcpn/> */}
       {/* <InputNico/> */}
-      {/* <Router>
+
+      
+      <Router>
         <Navbar />
         <Route exact path="/">
           <Homepage />
@@ -37,8 +39,10 @@ function App() {
           <Collection />
         </Route>
 
-      </Router> */}
-      <Usestateexample/>
+      </Router>
+
+
+      {/* <Usestateexample/> */}
     </div>
   );
 }
